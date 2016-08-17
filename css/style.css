@@ -1,0 +1,812 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after {
+			content: '';
+			clear: both;
+			display: table;
+			overflow: hidden;
+}
+.head {
+	width: 100%;
+}
+.head-menu {
+	width: 100%;
+	height: 80px;
+	background-color: #96c038;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+.head-logo {
+	width: 210px;
+	height: 149px;
+	z-index: 2;	
+}
+.menu a {
+	color: white;
+	font-family: PTSans;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 17px;
+	font-variant: small-caps;
+	margin: 10px;
+}
+.menu {
+	align-self: center;
+}
+.menu a:hover {
+	border-bottom: 4px solid #fff;
+} 
+.head-top {
+	width: 100%;
+	background-image: linear-gradient(to top, white 0%, #eaf1f0 100%);
+	text-align: center;
+	position: relative;
+}
+.text_smol_center {
+	font-family: Lora;
+	font-size: 16px;
+	line-height: 36px;
+	padding: 7.58% 0 0 0;
+}
+.text_big_center {
+	font-family: Lora;
+	font-size: 300%;
+	line-height: 42px;
+	font-variant: small-caps;
+}
+.text_smol {
+	font-family: Lora;
+	font-size: 16px;
+	line-height: 68px;
+	position: absolute;
+	right: 40%;
+}
+.text_boc {
+	position: absolute;
+	right: 20.5%;
+	top: 37%;
+}
+.head-img {
+	width: 39.1406%;
+	height: 20%;
+	margin: 15% 23.5% 2.65% 37.35%;
+}
+.chomu {
+	width: 100%;
+	background-color: #282828;
+}
+.logo-bloc {
+	width: 27%;
+	margin: 0 auto;
+	text-align: center;
+}
+.logo-bloc img {
+	width: 22.65%;
+	height: 22.65%;
+	margin: 8.52% 50% 9.73% 39%;
+}
+.logo-bloc-text {
+	color: white;
+	font-family: PTSans;
+	font-size: 150%;
+	font-weight: 700;
+	line-height: 17px;
+	/* Text style for "Чому саме" */
+	text-transform: uppercase;
+	/* Text style for "FRED&FRESH" */
+	font-variant: small-caps;
+	text-align: center;
+}
+.chomu-img {
+	width: 72.75%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+.chomu-img-center {
+	width: 22.44%;
+	margin: 5% 0 5% 0;
+}
+.chomu-img-center-text h2 {
+	color: #96c038;
+	font-family: PTSans;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+}
+.chomu-img-center-text {
+	width: 42.64%;
+	margin: 0 auto;
+}
+.chomu-img-center-text p {
+	color: #b8b8b8;
+	font-family: Lora;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 4% 0 0 0;
+	padding: 0 0 13.67% 0;
+}
+.apsolut {
+	margin: 20% 0 0 0;
+}
+.apsolut-left {
+	position: absolute;
+	width: 18%;
+	top: -25%;
+	left: 21%;
+}
+.chomu-img-center-left {
+	width: 88%;
+	margin: 10% 0 0 0;
+}
+.apsolut-left h2 {
+	color: #96c038;
+	font-family: PTSans;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+}
+.apsolut-left p {
+	color: #b8b8b8;
+	font-family: Lora;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 6% 0 0 0;
+}
+.apsolut-right {
+	position: absolute;
+	width: 25%;
+	top: -25%;
+	left: 58%;
+}
+.chomu-img-center-right {
+	width: 67%;
+	margin: 10% 0 0 0;
+}
+.apsolut-right h2 {
+	color: #96c038;
+	font-family: PTSans;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+}
+.apsolut-right p {
+	color: #b8b8b8;
+	font-family: Lora;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 6% 0 0 0;
+}
+.chomu-img-left {
+	width: 28%;
+	position: absolute;
+	top: 24%;
+	left: -1%;
+}
+.chomu-img-left h2 {
+	color: #96c038;
+	font-family: PTSans;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+}
+.chomu-img-left img {
+	width: 59%;
+}
+.chomu-img-left p {
+	color: #b8b8b8;
+	font-family: Lora;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+}
+.chomu_right {
+	left: 74.5%;
+}
+.menubar  {
+	background-image: url("../pic/bigstock-old-wood-texture-15078491.png");
+	display:block;
+	background-size: 100%;
+	background-position: top center;
+}
+.menua {
+	background-image: url("../pic/rectangle-6.png");
+	display:block;
+	background-size: 100%;
+	background-position: top center;
+}
+.menuodyn {
+	width: 68.28125%;
+	background-color: #eaf1f0;
+	margin: 3.125% auto;
+	display: block;
+}
+.menuodyn-img {
+	width: 35.24027%;
+	height: 100%;
+	display: inline-block;
+}
+.menuodyn-menu {
+	width: 64.75%;
+	margin: 0;
+	padding: 0;
+	float: right;
+	position: relative;
+}
+.fl {
+	float: left;
+}
+.fl .grupa {
+	margin: -15% 0 0 2%;
+}
+.menuodyn-menu h2 {
+	color: #96c038;
+	font-family: PTSans;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 17px;	
+	margin: 5.11% 33.86% 2.5% 3%;
+}
+.fl h2:first-child {
+	margin: 5.11% 3% 2.5% 56.86%;
+}
+.fl .flp {
+	margin: -2.89% 0% 0% 56%;
+}
+.menuodyn-menu p {
+	color: #282828;
+	font-family: Lora;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: -2.89% 0 0 3%;
+}
+.menuodyn-line {
+	width: 72.43%;
+	margin: 1.766% 22.43% 0 3.12%;
+	z-index: 5;
+}
+.fl .menuodyn-line {
+	margin: 1.766% 1.43% 0 24.12%;
+}
+.menu1 {
+	width: 30.89%;
+	height: 290px;
+	float: left;
+	margin: 0% 2.1% 4% 0%;
+	background: #ffffff;
+}
+.menuoll {
+	width: 87.92%;
+	margin: 1% 0% 0 4%;
+}
+.fl .menuoll {
+	margin: 1% 0% 0 4%;
+}
+.menu1 .cena {
+	color: #96c038;
+	font-family: Lora;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	padding: 6.5% 0 0 3%;
+}
+.menu1 h2 {
+	color: #282828;
+	font-family: PTSans;
+	font-size: 14px;
+	font-weight: 700;
+}
+.menu1 p {
+	color: #282828;
+	font-family: Lora;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 18px;
+	padding: 2% 1% 0 1%;
+}
+.menu1 button {
+	background-color: #96c038;
+	color: white;
+	font-family: PTSans;
+	font-size: 18px;
+	font-variant: small-caps;
+	bottom: 100%;
+}
+.menubar .menuodyn:first-child {
+	padding: 0% 0% 15% 0%;
+}
+.grupa {
+	width: 11%;
+	margin: -15% 0 0 87%;
+}
+.scrol {
+	width: 7%;
+	position: absolute;
+}
+.scrol {
+	top: 40px;
+}
+.media {
+	width: 100%;
+	background-color: #96c038;
+}
+.media-left {
+	width: 14.84%;
+	position: relative;
+}
+.media-right {
+	width: 14.84%;
+	position: relative;
+}
+.media-centr {
+	width: 58.28125%;
+	position: relative;
+}
+.polosa {
+	width: 7.58%;
+	height: 100%;
+	position: relative;
+}
+.media-cadr {
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	height: 31.8125%;
+	margin: 3.67% 0 5.15% 0;
+}
+.crug {
+	position: absolute;
+	width: 42%;
+    height: 111%;
+    margin-top: -20%;
+    margin-left: -73%;
+}
+.media-scrol {
+	position: absolute;
+	margin-left: -48%;
+    margin-top: 90%;
+}
+.media-scrolright {
+	position: absolute;
+	margin-left: -66%;
+    margin-top: 90%;
+}
+.media-play {
+	position: absolute;
+	margin-left: -55%;
+    margin-top: 23%;
+    z-index: 6;
+    width: 10%;
+}
+.services {
+	width: 100%;
+	background-color: #eaf1f0;
+	
+}
+.logo-green {
+	color: #96c038;
+	margin: 0 auto 6%;
+}
+.service {
+	width: 75.85%;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	margin: 2% 12% 0 12%;
+}
+.topl {
+	width: 48.5%;
+	margin: 0 1.13% 0 0;
+	background-color: white;
+	border: : 1px solid #ddd;
+	position: relative;
+}
+.topr {
+	width: 48.5%;
+	margin: 0 0 0 1.13%;
+	background-color: white;
+	border: : 1px solid #ddd;
+	position: relative;
+}
+.service img {
+	width: 48.40%;
+	float: left;
+	margin: 0 0 0 0%;
+}
+.service button {
+	background-color: #96c038;
+	color: white;
+	font-family: PTSans;
+	font-size: 16px;
+	font-variant: small-caps;
+	bottom: 100%;
+	border: 1px solid #ddd;
+	width: 107px;
+	height: 29px;
+	position: absolute;
+	top: 86%;
+	left: 53%;
+}
+.service-text h2 {
+	color: #96c038;
+	font-family: PTSans;
+	font-size: 24px;
+	margin: 7.5% 0 0 0 ;
+}
+.service-text p {
+	color: black;
+	font-family: Lora;
+	font-size: 95%;
+	margin: 5% 3.5% 2% 3.5%;
+}
+.CHIEF {
+	background-image: url("../pic/355.png");
+	display:block;
+	background-size: 100%;
+	background-position: top center;
+}
+.CHIEF-oll {
+	display: flex;
+	justify-content: space-around;
+	padding: 8% 0 0 0;
+}
+.CHIEF-text-bloc {
+	width: 25.96%;
+}
+.CHIEF-text {
+	width: 100%;
+	background-color: #96c038;
+}
+.CHIEF-text p {
+	color: white;
+	font-family: PTSans;
+	font-size: 100%;
+	padding: 7.5% 7.5% 7.5% 7.5%;
+}
+.CHIEF-text-opes {
+	width: 100%;
+	opacity: 0.63;
+	background-color: #040404;
+}
+.CHIEF-text-opes h3 {
+	color: #96c038;
+	font-family: PTSans;
+	font-size: 100%;
+	padding: 6% 7.5% 0 7.5%;
+}
+.CHIEF-text-opes p {
+	color: white;
+	font-family: Lora;
+	font-size: 70%;
+	font-weight: 400;
+	line-height: 18px;
+	padding: 0 7.5% 6.4% 7.5%;
+	
+}
+.chuvaky {
+	width: 74.06%;
+}
+.CHIEF-bloc {
+	width: 25.73%;
+	background-color: #96c038;
+}
+.CHIEF-bloc p {
+	color: white;
+	font-family: PTSans;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 17px;
+	font-variant: small-caps;
+}
+.CHIEF-bloc p {
+	padding: 1% 0 6% 0;
+}
+.CHIEF-bloc img {
+	margin: 10.52% 39% 3.73% 39%;
+}
+.costyl {
+	margin: 8% 0 0 0;
+}
+.karta {
+	width: 100%;
+	background-image: url("../pic/rectangle-23.png");
+	display:block;
+	background-size: 100%;
+	background-position: top center;
+	position: relative;
+	padding: 3% 0 2% 0;
+}
+.client {
+	width: 28.047%;
+	background: #FFF;
+	padding: 3% 0 1% 0;
+	margin: 0 0 0 1%;
+}
+.client h3{
+	color: #505050;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 17px;
+	margin: 0 0 8% 14%;
+}
+.inf h4 {
+	color: #96c038;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 17px;
+	padding: 5% 0 12% 2%;
+}
+.inf p {
+	color: #505050;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 17px;
+}
+.client1 {
+	display: flex;
+	justify-content: space-around;
+	width: 74.37%;
+	height: 24.58%;
+	width: 267px;
+	height: 133px;
+	border: 2px solid #96c038;
+	margin: 1% auto;
+}
+.log {
+	width: 32.58%;
+}
+.inf {
+	width: 64.04%;
+}
+.knopka {
+	width: 8.92%;
+	margin: auto;
+}
+.poziciya1 {
+	width: 2.74%;
+	position: absolute;
+	left: 43%;
+	top: 36%;
+}
+.poziciya2 {
+	width: 2.74%;
+	position: absolute;
+	left: 44%;
+	top: 53%;
+}
+.poziciya3 {
+	width: 2.74%;
+	position: absolute;
+	left: 52.5%;
+	top: 56.5%;
+}
+.poziciya4 {
+	width: 2.74%;
+	position: absolute;
+	left: 63.5%;
+	top: 29.95%;
+}
+.poziciya5 {
+	width: 2.74%;
+	position: absolute;
+	left: 52%;
+	top: 34%;
+}
+.FREDNEWS {
+	width: 100%;
+	background-color: #eaf1f0;
+	padding: 0 0 3% 0;
+}
+.grey {
+	color: #505050;
+	font-family: PTSans;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 17px;
+	font-variant: small-caps;
+	text-align: center;
+	padding: 0 0 10% 0;
+}
+.news {
+	width: 73.53%;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+}
+.news1 {
+	width: 22.63%;
+	background: #FFF;
+}
+.zagolovok {
+	color: #96c038;
+	font-family: PTSans;
+	font-size: 150%;
+	font-weight: 700;
+	line-height: 22px;
+	margin: 7% 5% 0 7%;
+	height: 25%;
+}
+.news1-text {
+	color: black;
+	font-family: Lora;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	margin: 0% 5% 0 7%;
+	height: 25%;
+}
+.news1-button {
+	background-color: white;
+	border: 1px solid #ddd;
+	width: 57%;
+	margin: 2% 2% 2% 2%;
+}
+.news1-button button {
+	color: #505050;
+	font-family: PTSans;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	font-variant: small-caps;
+}
+.FREDNEWS-button {
+	width: 16.41%;
+	margin: 3% auto;
+	opacity: 0.5;
+	background-color: white;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+.FREDNEWS-button button {
+	opacity: 0.5;
+	color: #505050;
+	font-family: PTSans;
+	font-size: 24px;
+	font-weight: 700;
+	font-variant: small-caps;
+	line-height: 190%;
+}
+.futer {
+	background-image: url("../pic/writing-a-letter-ir1osnha.png");
+	display:block;
+	background-size: 100%;
+	background-position: top center;
+	padding: 0 0 3.7% 0;
+}
+.logo-bloc-text-smol {
+	font-family: Lora;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+	width: 45%;
+	margin: 1% auto;
+	color: #FFF;
+}
+.imput {
+	width: 64%;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+}
+.imput-left {
+	width: 48.14%;
+}
+.imput-right {
+	width: 48.14%;
+}
+.mail input {
+	background-color: white;
+	border-radius: 10px;
+	color: #505050;
+	font-family: Lora;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 17px;
+	padding: 1% 0 1% 2%;
+	margin: 2% 0 3% 0;
+}
+.tema input {
+	background-color: white;
+	border-radius: 10px;
+	color: #505050;
+	font-family: Lora;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 17px;
+	padding: 1% 0 1% 2%;
+	margin: 2% 0 5% 0;
+}
+.imput-right textarea {
+	background-color: white;
+	border-radius: 10px;
+	color: #505050;
+	font-family: Lora;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 17px;
+	padding: 1% 0 1% 2%;
+	margin: 2% 0 5% 0;
+}
+.imput-button {
+	width: 11.41%;
+	margin: 3% auto;
+	height: 44px;
+	background-color: #96c038;
+	border: 3px solid white;
+	border-radius: 10px;
+}
+.imput-button p {
+	width: 92px;
+	height: 14px;
+	color: white;
+	font-family: PTSans;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 17px;
+	font-variant: small-caps;
+	padding: 9% 15% 15% 15%;
+}
+.colbec {
+	width: 27.66%;
+	background-color: #96c038;
+	box-shadow: 0 8px 19.5px 1.5px rgba(6, 6, 6, 0.47);
+	width: 247px;
+	height: 53px;
+	color: white;
+	font-family: PTSans;
+	font-weight: 700;
+	font-variant: small-caps;
+	text-align: center;
+	padding: 1.4% 4.14% 1% 4.14%;
+	margin: 0 auto;
+	position: absolute;
+	left: 36.17%;
+	top: -18%;
+}
+.colbec p {
+	font-size: 24px;
+	line-height: 17px;
+}
+.colbec h3 {
+	font-size: 30px;
+	line-height: 36px;
+}
+.futer-menu {
+	width: 100%;
+	background-color: #505050;
+	position: relative;
+	padding: 8.51% 0 3% 0;
+}
+.menu-futer {
+	text-align: center;
+}
+.futer-line {
+	width: 94%;
+	height: 1px;
+	opacity: 0.2;
+	background-color: white;
+	margin: 1.4% 3.04% 1.48% 3.04%;
+}
+.futer-img {
+	width: 12.03%;
+	margin: 0 auto;
+}
+.futer-img button {
+	margin: 0 2% 0 2%;
+}
+.futer-menu p {
+	text-align: center;
+	color: white;
+	font-family: PTSans;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 17px;
+	margin: 1.6% 0 0 0;
+}
